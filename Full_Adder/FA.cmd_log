@@ -1,2 +1,0 @@
-vhdtdtfi -lib work FA.vhd -prj Full_Adder -o FA.spl -module FA -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family artix7 FA.spl {C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/FA.sym} 
