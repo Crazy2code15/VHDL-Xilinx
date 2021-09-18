@@ -1,0 +1,2 @@
+vhdl isim_temp "FA.vhd"
+vhdl isim_temp "FA_testbench.vhd"

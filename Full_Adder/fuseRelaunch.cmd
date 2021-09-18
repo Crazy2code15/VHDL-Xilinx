@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA_testbench_isim_beh.exe" -prj "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA_testbench_beh.prj" "work.HA_testbench" 

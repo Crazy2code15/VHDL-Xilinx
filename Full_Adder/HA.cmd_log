@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA.xst" -ofn "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA.syr" 
+xst -intstyle ise -ifn "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA.xst" -ofn "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "HA.ngc" HA.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o HA_map.ncd HA.ngd HA.pcf 
+par -w -intstyle ise -ol high -mt off HA_map.ncd HA.ncd HA.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HA.twx HA.ncd -o HA.twr HA.pcf 
+xst -intstyle ise -ifn "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA.xst" -ofn "C:/Users/MRADULA SINGH/Music/pratibha/Full_Adder/HA.syr" 
